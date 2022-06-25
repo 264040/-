@@ -1,0 +1,17 @@
+.view_login{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100%;
+  background-color: #232341;
+}
+ .view_login_form{
+   width: 500px;  
+   background: white;
+   padding: 25px 30px ;
+ }
+
+ .view_login_form_title {
+   text-align: center;
+   font-weight: 600;
+ } 

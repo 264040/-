@@ -1,0 +1,13 @@
+.hidden {
+  display: none;
+}
+.steps-content {
+  margin-top: 50px;
+}
+#components-form-demo-control-hooks .ant-btn {
+  margin-right: 8px;
+}
+ 
+.Descriptions_auditState {
+  color: red!important;
+}

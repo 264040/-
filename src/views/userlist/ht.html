@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+</body>
+<script>
+  let arr = [{ s: 1, a: 2, role: { id: 14 } }, { s: 1, a: 2, role: { id: 14 } }, { s: 1, a: 2, role: { id: 14 } }]
+  let ok = { a: 22, s: 22 }
+  let s = [...arr, { ...ok, role: { id: 111 } }]
+  console.log(s);
+  console.log(...arr);
+  console.log(arr);
+
+  let promiseS = new Promise((resolve, reject) => {
+    resolve(111)
+    // reject(new Error('promise reject'))
+  })
+  promiseS
+    .then((data) => {
+      console.log(data, '111');
+      return data
+    }) 
+
+    console.log('global start');
+    Promise.resolve()
+    .then(data => {
+      console.log('promise');
+    })
+    console.log('global end');
+</script>
+
+</html>

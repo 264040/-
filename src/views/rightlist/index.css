@@ -1,0 +1,12 @@
+
+
+.example {  
+  padding: 30px 50px;
+  height: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
